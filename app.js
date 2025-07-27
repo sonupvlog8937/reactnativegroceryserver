@@ -24,7 +24,7 @@ const start = async () => {
           if (!origin) return cb(null, true); // allow requests without origin (native apps)
           const allowedOrigins = [
             'https://your-frontend.com', // replace with your domain(s)
-            'https://admin.yourapp.com',
+            'https://reactnativegroceryserver-1.onrender.com',
           ];
           if (allowedOrigins.includes(origin)) {
             cb(null, true);
