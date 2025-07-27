@@ -12,7 +12,7 @@ const start = async()=>{
 
     app.register(fastifySocketIO,{
         cors:{
-            origin:"*"
+            origin:"https://reactnativegroceryserver-2.onrender.com"
         },
         pingInterval:10000,
         pingTimeout:5000,
